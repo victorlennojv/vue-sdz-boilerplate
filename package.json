@@ -1,0 +1,21 @@
+{
+  "name": "hacktober-seedz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "2.7.2",
+    "vue-sdz": "^0.1.54"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.0.0",
+    "@vue/composition-api": "^1.7.1",
+    "vite": "^3.1.0",
+    "vue-template-compiler": "2.7.2"
+  }
+}
