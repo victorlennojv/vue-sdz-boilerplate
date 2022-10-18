@@ -5,7 +5,7 @@
       fallback="https://i.ytimg.com/vi/Yt9t9e9gmmw/maxresdefault.jpg"
     />
 
-    <p>Welcome to our projet.</p>
+    <p>Welcome to our project.</p>
       <p class="flex-center">
         <s-button link external to="https://seedz-ag.github.io/vue-sdz/getting-started">Click here </s-button>  to access vue-sdz documentation  
       </p>
