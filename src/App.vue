@@ -7,7 +7,7 @@
 
     <p>Welcome to our projet.</p>
       <p class="flex-center">
-        <s-button link external to="https://seedz-ag.github.io/vue-sdz/getting-started">Click here </s-button>  to access vue-seedz documentation  
+        <s-button link external to="https://seedz-ag.github.io/vue-sdz/getting-started">Click here </s-button>  to access vue-sdz documentation  
       </p>
   </div>
 </template>
@@ -20,13 +20,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .greetings {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ;
+  background-color: #F8F8F8;
   height: 100%;
   width: 100%;
   gap: 20px;
