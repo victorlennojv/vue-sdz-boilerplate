@@ -1,15 +1,44 @@
 <template>
-  <div>
-    <h1>Teste</h1>
-    <s-button>Teste</s-button>
+  <div class="greetings">
+    <s-image
+      src="../src/assets/BrandSeedz_2.svg"
+      fallback="https://i.ytimg.com/vi/Yt9t9e9gmmw/maxresdefault.jpg"
+    />
+
+    <p>Welcome to our projet.</p>
+      <p class="flex-center">
+        <s-button link external to="https://seedz-ag.github.io/vue-sdz/getting-started">Click here </s-button>  to access vue-seedz documentation  
+      </p>
   </div>
 </template>
+
 <script>
-import { SButton } from 'vue-sdz'
+import { SImage, SButton } from "vue-sdz"
 
 export default {
-  components: { SButton }
+  components: { SImage, SButton },
 }
 </script>
 
+<style>
+.greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
 
+.greetings > .s-image {
+  width: 300px;
+ }
+
+.flex-center {
+  display: flex;  
+  justify-content: center;
+  gap: 4px;
+}
+</style>
