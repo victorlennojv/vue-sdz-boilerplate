@@ -9,13 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "2.7.2",
+    "vue": "2.6.14",
+    "vue-coe-feedback": "^0.1.5",
     "vue-sdz": "^0.1.54"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue2": "^2.0.0",
     "@vue/composition-api": "^1.7.1",
     "vite": "^3.1.0",
-    "vue-template-compiler": "2.7.2"
+    "vite-plugin-vue2": "^2.0.2",
+    "vue-template-compiler": "2.6.14"
   }
 }
